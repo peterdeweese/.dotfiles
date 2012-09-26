@@ -1,1 +1,1 @@
-git ls-tree HEAD
+git ls-tree HEAD --abbrev $@
