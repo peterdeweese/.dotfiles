@@ -1,0 +1,9 @@
+git rm -r --cached . > /dev/null
+git add .
+git status
+echo "Remove files? (y/n)"
+read yesno
+if [ yesno = "y" ]
+then
+  git commit -m "Removed files that should be .gitignored"
+fi
