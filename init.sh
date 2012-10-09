@@ -1,5 +1,6 @@
 #!/bin/bash
 
+PATH=/usr/local/bin:$PATH
 . ~/.dotfiles/aliases.sh
 . ~/.dotfiles/functions.sh
 
