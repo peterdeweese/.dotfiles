@@ -1,0 +1,1 @@
+atos -arch armv7 -o "$1" $2
