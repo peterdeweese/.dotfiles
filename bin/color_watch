@@ -1,0 +1,6 @@
+clear
+while true; do
+	tput cup 0 0
+	eval "$@"
+	sleep 2
+done
