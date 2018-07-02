@@ -7,7 +7,7 @@ dotfiles to keep my mac configuration straight. Commands are added in a bin dire
 
     cd
     git clone https://github.com/peterdeweese/.dotfiles.git
-    echo '~/.dotfiles/init.sh' > ~/.bashrc
+    echo '. ~/.dotfiles/init.sh' > ~/.bashrc
 
 ###.bash_profile
 
